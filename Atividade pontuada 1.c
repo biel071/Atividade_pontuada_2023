@@ -14,17 +14,17 @@ int main()
     printf("Qual a Temperatura do jogo?:");
     scanf("%d", &temperatura);
 
-    if (temperatura >= 25 || temperatura >= 15)
+    if (temperatura <= 25 && temperatura >= 15)
     {
-        printf("O clima est· nublado\n");
+        printf("O clima est√° nublado\n");
     }
     if (temperatura <= 14)
     {
-        printf("O clima est· chuvoso\n");
+        printf("O clima est√° chuvoso\n");
     }
     if (temperatura >=26)
     {
-        printf("O CLIMA EST¡ ENSOLARADO\n");
+        printf("O CLIMA EST√Å ENSOLARADO\n");
     }
 
     return 0;
